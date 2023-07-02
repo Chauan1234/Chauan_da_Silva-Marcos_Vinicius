@@ -171,7 +171,7 @@ public class Exercicio_3 {
 
         System.out.print("Digite um número inteiro: "); cubo = s.nextInt();
 
-        System.out.println("O valor do cubo do número é: " + ((cubo * cubo) * cubo));
+        System.out.println("O valor do cubo do número é: " + (cubo * cubo * cubo);
 
 
         System.out.println("\n**************Atividade 15***************\n");

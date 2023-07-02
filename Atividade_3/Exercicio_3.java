@@ -12,10 +12,9 @@ public class Exercicio_3 {
         int[] num_int = new int[99];
         double resul;
 
-        System.out.print("Digite um número inteiro: ");
-        num_int[0] = s.nextInt();
-        System.out.print("Digite um número inteiro: ");
-        num_int[1] = s.nextInt();
+        System.out.print("Digite um número inteiro: "); num_int[0] = s.nextInt();
+        
+        System.out.print("Digite um número inteiro: "); num_int[1] = s.nextInt();
 
         resul = num_int[0] + num_int[1];
 
@@ -26,8 +25,7 @@ public class Exercicio_3 {
 
         double raio, area, pi = Math.PI;
 
-        System.out.print("Digite o raio de um circulo: ");
-        raio = s.nextDouble();
+        System.out.print("Digite o raio de um circulo: "); raio = s.nextDouble();
 
         area = pi * (raio * raio);
 
@@ -38,10 +36,9 @@ public class Exercicio_3 {
 
         double base, altura;
 
-        System.out.print("Digite o valor de base do triângulo: ");
-        base = s.nextDouble();
-        System.out.print("Digite o valor da altura do triângulo: ");
-        altura = s.nextDouble();
+        System.out.print("Digite o valor de base do triângulo: "); base = s.nextDouble();
+        
+        System.out.print("Digite o valor da altura do triângulo: "); altura = s.nextDouble();
 
         area = (base * altura) / 2;
 
@@ -52,8 +49,7 @@ public class Exercicio_3 {
 
         double celsius, fahren;
 
-        System.out.print("Digite uma temperatura em graus Celsius: ");
-        celsius = s.nextDouble();
+        System.out.print("Digite uma temperatura em graus Celsius: "); celsius = s.nextDouble();
 
         fahren = (celsius * 1.8) + 32;
 
@@ -64,11 +60,9 @@ public class Exercicio_3 {
 
         double salarioDia, salariopHora, tempoTrabalhado;
 
-        System.out.print("Digite horas trabalhadas: ");
-        tempoTrabalhado = s.nextDouble();
+        System.out.print("Digite horas trabalhadas: "); tempoTrabalhado = s.nextDouble();
 
-        System.out.print("Valor da hora de trabalho: R$");
-        salariopHora = s.nextDouble();
+        System.out.print("Valor da hora de trabalho: R$"); salariopHora = s.nextDouble();
 
         salarioDia = salariopHora * tempoTrabalhado;
 
@@ -79,17 +73,13 @@ public class Exercicio_3 {
 
         int dias, hr, mn, seg, totalseg;
 
-        System.out.print("Quantidade de dias: ");
-        dias = s.nextInt();
+        System.out.print("Quantidade de dias: "); dias = s.nextInt();
 
-        System.out.print("Quantidade de horas: ");
-        hr = s.nextInt();
+        System.out.print("Quantidade de horas: "); hr = s.nextInt();
 
-        System.out.print("Quantidade de minutos: ");
-        mn = s.nextInt();
+        System.out.print("Quantidade de minutos: "); mn = s.nextInt();
 
-        System.out.print("Quantidade de segundos: ");
-        seg = s.nextInt();
+        System.out.print("Quantidade de segundos: "); seg = s.nextInt();
 
         dias *= 86400;
 
@@ -104,11 +94,9 @@ public class Exercicio_3 {
 
         System.out.println("\n**************Atividade 7***************\n");
 
-        System.out.print("Digite número inteiro: ");
-        num_int[0] = s.nextInt();
+        System.out.print("Digite número inteiro: "); num_int[0] = s.nextInt();
 
-        System.out.print("Digite número inteiro: ");
-        num_int[1] = s.nextInt();
+        System.out.print("Digite número inteiro: "); num_int[1] = s.nextInt();
 
         System.out.println("Valor da multiplação: " + (num_int[0] * num_int[1]));
 
@@ -117,8 +105,7 @@ public class Exercicio_3 {
 
         double valorProd, descon;
 
-        System.out.print("Digite valor do produto: R$");
-        valorProd = s.nextDouble();
+        System.out.print("Digite valor do produto: R$"); valorProd = s.nextDouble();
 
         descon = valorProd - (valorProd * 0.10);
 
@@ -129,11 +116,9 @@ public class Exercicio_3 {
 
         double valorL, quantL;
 
-        System.out.print("Quantidade de litros de combustível: ");
-        quantL = s.nextDouble();
+        System.out.print("Quantidade de litros de combustível: "); quantL = s.nextDouble();
 
-        System.out.print("Valor do litro: R$");
-        valorL = s.nextDouble();
+        System.out.print("Valor do litro: R$"); valorL = s.nextDouble();
 
         System.out.println("Valor total: R$" + (valorL * quantL));
 
@@ -142,11 +127,9 @@ public class Exercicio_3 {
 
         double diasAluga, valorDiaria;
 
-        System.out.print("Quantidade de dias alugados: ");
-        diasAluga = s.nextDouble();
+        System.out.print("Quantidade de dias alugados: "); diasAluga = s.nextDouble();
 
-        System.out.print("Valor da diária: R$");
-        valorDiaria = s.nextDouble();
+        System.out.print("Valor da diária: R$"); valorDiaria = s.nextDouble();
 
         System.out.println("O valor total do aluguel é: R$" + (diasAluga * valorDiaria));
 
@@ -155,8 +138,7 @@ public class Exercicio_3 {
 
         int quadNum;
 
-        System.out.print("Digite um número inteiro: ");
-        quadNum = s.nextInt();
+        System.out.print("Digite um número inteiro: "); quadNum = s.nextInt();
 
         System.out.println("O quadrado do número é: " + (quadNum * quadNum));
 
@@ -165,8 +147,7 @@ public class Exercicio_3 {
 
         double acrescimo;
 
-        System.out.print("Digite o valor do produto: R$");
-        valorProd = s.nextDouble();
+        System.out.print("Digite o valor do produto: R$"); valorProd = s.nextDouble();
 
         acrescimo = valorProd + (valorProd * 0.15);
 
@@ -177,11 +158,9 @@ public class Exercicio_3 {
 
         int quantComprada;
 
-        System.out.print("Valor do produto: R$");
-        valorProd = s.nextDouble();
+        System.out.print("Valor do produto: R$"); valorProd = s.nextDouble();
 
-        System.out.print("Quantidade comprada: ");
-        quantComprada = s.nextInt();
+        System.out.print("Quantidade comprada: "); quantComprada = s.nextInt();
 
         System.out.println("Valor total: R$" + (quantComprada * valorProd));
 
@@ -190,8 +169,7 @@ public class Exercicio_3 {
 
         int cubo;
 
-        System.out.print("Digite um número inteiro: ");
-        cubo = s.nextInt();
+        System.out.print("Digite um número inteiro: "); cubo = s.nextInt();
 
         System.out.println("O valor do cubo do número é: " + ((cubo * cubo) * cubo));
 
@@ -200,11 +178,9 @@ public class Exercicio_3 {
 
         double peso, imc;
 
-        System.out.print("Digite sua altura em metros: ");
-        altura = s.nextDouble();
+        System.out.print("Digite sua altura em metros: "); altura = s.nextDouble();
 
-        System.out.print("Digite seu peso em quilogramas: ");
-        peso = s.nextDouble();
+        System.out.print("Digite seu peso em quilogramas: "); peso = s.nextDouble();
 
         imc = peso / (altura * altura);
 
@@ -213,11 +189,9 @@ public class Exercicio_3 {
 
         System.out.println("\n**************Atividade 16***************\n");
 
-        System.out.print("Valor do produto: R$");
-        valorProd = s.nextDouble();
+        System.out.print("Valor do produto: R$"); valorProd = s.nextDouble();
 
-        System.out.print("Porcentagem do desconto: ");
-        descon = s.nextDouble();
+        System.out.print("Porcentagem do desconto: "); descon = s.nextDouble();
 
         descon = valorProd - (valorProd * descon) / 100;
 
@@ -241,11 +215,9 @@ public class Exercicio_3 {
 
         int idade, ano;
 
-        System.out.print("Digite sua idade: ");
-        idade = s.nextInt();
+        System.out.print("Digite sua idade: "); idade = s.nextInt();
 
-        System.out.print("Digite em que ano estamos: ");
-        ano = s.nextInt();
+        System.out.print("Digite em que ano estamos: "); ano = s.nextInt();
 
         System.out.print("Seu ano de nascimento: " + (ano - idade));
 
@@ -254,11 +226,9 @@ public class Exercicio_3 {
 
         int meses;
 
-        System.out.print("Digite sua idade: ");
-        idade = s.nextInt();
+        System.out.print("Digite sua idade: "); idade = s.nextInt();
 
-        System.out.print("Digite quantos meses você viveu:");
-        meses = s.nextInt();
+        System.out.print("Digite quantos meses você viveu:"); meses = s.nextInt();
 
         dias = meses * 30;
 
@@ -267,19 +237,16 @@ public class Exercicio_3 {
 
         System.out.println("\n**************Atividade 20***************\n");
 
-        System.out.print("Digite valor de um lado do quadrado");
-        area = s.nextDouble();
+        System.out.print("Digite valor de um lado do quadrado"); area = s.nextDouble();
 
         System.out.println("Área do quadrado: " + (area * 4));
 
 
         System.out.println("\n**************Atividade 21***************\n");
 
-        System.out.print("Digite sua altura em metros: ");
-        altura = s.nextDouble();
+        System.out.print("Digite sua altura em metros: "); altura = s.nextDouble();
 
-        System.out.print("Digite seu peso em quilogramas: ");
-        peso = s.nextDouble();
+        System.out.print("Digite seu peso em quilogramas: "); peso = s.nextDouble();
 
         imc = peso / (altura * altura);
 
@@ -331,11 +298,9 @@ public class Exercicio_3 {
     static void MaiorNumero(int num1, int num2) {
         Scanner s = new Scanner(System.in);
 
-        System.out.print("Digite um número inteiro: ");
-        num1 = s.nextInt();
+        System.out.print("Digite um número inteiro: "); num1 = s.nextInt();
 
-        System.out.print("Digite um número inteiro: ");
-        num2 = s.nextInt();
+        System.out.print("Digite um número inteiro: "); num2 = s.nextInt();
 
         System.out.println("O maior número é: " + Math.max(num1, num2));
     }

@@ -1,5 +1,3 @@
-package Atividade_5_Math;
-
 import java.util.Scanner;
 
 public class Exercicio_5 {

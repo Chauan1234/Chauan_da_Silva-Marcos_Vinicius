@@ -13,7 +13,7 @@ public class Exercicio_3 {
         double resul;
 
         System.out.print("Digite um número inteiro: "); num_int[0] = s.nextInt();
-        
+
         System.out.print("Digite um número inteiro: "); num_int[1] = s.nextInt();
 
         resul = num_int[0] + num_int[1];
@@ -27,7 +27,7 @@ public class Exercicio_3 {
 
         System.out.print("Digite o raio de um circulo: "); raio = s.nextDouble();
 
-        area = pi * (raio * raio);
+        area = pi * Math.pow(raio, 2);
 
         System.out.println("A área do circulo é: " + area);
 
@@ -37,12 +37,12 @@ public class Exercicio_3 {
         double base, altura;
 
         System.out.print("Digite o valor de base do triângulo: "); base = s.nextDouble();
-        
+
         System.out.print("Digite o valor da altura do triângulo: "); altura = s.nextDouble();
 
         area = (base * altura) / 2;
 
-        System.out.println("A área do triânngulo é: " + area);
+        System.out.println("A área do triângulo é: " + area);
 
 
         System.out.println("\n**************Atividade 4***************\n");
@@ -87,7 +87,7 @@ public class Exercicio_3 {
 
         mn *= 60;
 
-        totalseg = (dias + (hr + mn) + seg);
+        totalseg = (dias + hr + mn + seg);
 
         System.out.println(totalseg + " Segundos");
 
@@ -171,7 +171,7 @@ public class Exercicio_3 {
 
         System.out.print("Digite um número inteiro: "); cubo = s.nextInt();
 
-        System.out.println("O valor do cubo do número é: " + (cubo * cubo * cubo);
+        System.out.println("O valor do cubo do número é: " + ((cubo * cubo) * cubo));
 
 
         System.out.println("\n**************Atividade 15***************\n");
@@ -182,7 +182,7 @@ public class Exercicio_3 {
 
         System.out.print("Digite seu peso em quilogramas: "); peso = s.nextDouble();
 
-        imc = peso / (altura * altura);
+        imc = peso / Math.pow(altura, 2);
 
         System.out.println("Seu índice de massa corporal (IMC) é: " + imc);
 
@@ -248,7 +248,7 @@ public class Exercicio_3 {
 
         System.out.print("Digite seu peso em quilogramas: "); peso = s.nextDouble();
 
-        imc = peso / (altura * altura);
+        imc = peso / Math.pow(altura, 2);
 
         System.out.println("Seu índice de massa corporal (IMC) é: " + imc);
 
